@@ -1,0 +1,24 @@
+<view class='top'>
+
+  <view class='toptext'>
+  
+    <navigator open-type='navigate' url="/pages/dianpuxiangqing/dianpuxiangqing?cid={{item.did}}"  wx:for='{{msimg}}' wx:key='msid'>
+     {{item.dianpuming}}
+    </navigator>
+  </view>
+
+  <button class='but'  plain="{{plain}}" bindtap="setDisabled">收藏店铺</button>
+</view>
+
+<view class='zhongjian'  bindtap='hanldeDianji'>
+  <view class='ms'wx:for='{{msimg}}' wx:key='msid'>
+    <view ><image class='img' src='{{item.msimg}}'></image></view>
+    <view class='meishi'>
+      <view class='text'>{{item.msname}}</view>
+      <view class='jiage'>${{item.price}}</view>
+      <view class='butt' bindtap='hanldegouwuche' data-index='{{item.msid}}'>
+      选购
+     </view>
+    </view>
+  </view>
+</view>

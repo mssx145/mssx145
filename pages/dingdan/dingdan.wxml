@@ -1,0 +1,25 @@
+<!--pages/dingdan/dingdan.wxml-->
+<view>
+  <text class='H1'>全部订单</text>
+
+</view>
+<view class='quanbu'>
+
+  <view class='top' wx:for='{{dingdanlist}}' wx:key="msid">
+   <view class='dingdanzhuangtai'>订单状态：已完成</view>
+    <view class='ms' >
+      <image class='img' src='{{item.msimg}}'></image>
+      <view class='meishi'>
+        <view class='dian'>{{item.msname}}</view>
+        <text class='jiage'>{{item.price}}</text>
+      </view>
+    </view>
+    <!-- <navigator class='pj' url='/pages/pinglun/pinglun?cid={{msid}}'>评价</navigator> -->
+    <view class='del' bindtap='handledel' data-index='{{item.msid}}'>删除订单</view>
+  </view>
+
+    <!-- <view class='dingdan'>
+      <button class='pj'>评价</button>
+    </view> -->
+
+  </view>

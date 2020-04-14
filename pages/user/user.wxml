@@ -1,0 +1,27 @@
+<!--pages/user/user.wxml-->
+<view>
+
+</view>
+
+<view wx:if='{{user.avatarUrl}}' class='user'>
+  <view class='top'>
+    <view><image class='touxiang' src='{{user.avatarUrl}}'></image></view>
+    <view class='username'>{{user.nickName}}</view>
+  </view>
+</view>
+
+<view wx:else class='user'>
+  <view class='top'>
+     <view class='userdl'><navigator url='/pages/login/login'>登录</navigator></view>
+  </view>
+</view>
+
+<view class='bottom'>
+  <navigator class='userbuttn' open-type='navigate' url='/pages/shoucang/shoucang'>我的收藏</navigator>
+  
+  <button class='userbuttn' open-type='contact'> 联系客服</button>
+   <button class='userbuttn' open-type='feedback'> 意见反馈</button>  
+ 
+  <!-- <button class='userbuttn'>退出登录</button> -->
+
+</view>

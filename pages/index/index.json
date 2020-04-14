@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+  "sousuo":"../../components/sousuokuang/sousuo"
+   },
+  "navigationBarTitleText": "首页"
+
+}

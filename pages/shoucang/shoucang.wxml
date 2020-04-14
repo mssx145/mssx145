@@ -1,0 +1,20 @@
+<!--pages/shoucang/shoucang.wxml-->
+<view class='biaoti'>我的收藏</view>
+
+<view class='top' wx:for='{{datashoucang}}' wx:key="{{did}}">
+  <view class='ms'>
+    <view>
+      <image class='img' src='{{item.dimg}}'></image>
+    </view>
+    <view class='meishi'>
+      <view class='dian'>店铺名:{{item.dname}}</view>
+      <view class='dizhi'>地址：{{item.dizhi}}</view>
+      <view class='butt'>
+        <navigator url='/pages/dianpu/dianpu?cid={{item.did}}' open-type='navigate'>进入店铺</navigator>
+      </view>
+    </view>
+  </view>
+  <view class='xian '>
+    <view class='delet ' bindtap='handledele' data-index='{{item.did}} '>删除收藏</view>
+  </view>
+</view>

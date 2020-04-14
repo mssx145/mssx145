@@ -1,0 +1,73 @@
+/* pages/dianpu/dianpu.wxss */
+.top{
+  width: 100%;
+  height: 120rpx;
+  /* background-color: aqua; */
+  
+  
+}
+.toptext{
+  font-size: 50rpx;
+  float: left
+}
+
+
+
+.but{
+  width: 170rpx;
+  height: 90rpx;
+  font-size: 25rpx;
+  line-height: 80rpx;
+  float: right
+  
+}
+.zhongjian{
+  height: 500px;
+  /* background-color: slateblue; */
+ 
+
+}
+.ms{
+  display: flex;
+  justify-content: center;
+   position: relative;
+}
+.img{
+  /* background-color: skyblue; */
+  width: 280rpx;
+  height: 200rpx;
+    padding: 10px
+  
+}
+.meishi{
+/* background-color: salmon; */
+width: 470rpx;
+ height: 200rpx;
+ padding: 10px
+}
+.text{
+  font-size: 50rpx;
+  font-weight: bold;
+  position: absolute;
+  
+}
+.jiage{
+  color: red;
+  position: absolute;
+  top: 120rpx;
+  font-size: 50rpx
+}
+.butt{
+  width: 130rpx;
+  height: 70rpx;
+  z-index: 10000;
+  background-color: sandybrown;
+  position: absolute;
+  top: 120rpx;
+  right: 50rpx;
+  font-size: 40rpx;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center
+
+}

@@ -1,0 +1,45 @@
+<view>
+  <sousuo></sousuo>
+</view>
+
+<view>
+
+  <swiper autoplay='true' interval='3000' circular='true'>
+
+    <swiper-item class='lunbo'>
+      <image class='lunboimg' mode="widthFix" src='../image/lunbo/lunbo1.jpg'></image>
+    </swiper-item>
+
+    <swiper-item class='lunbo'>
+      <image class='lunboimg' mode="widthFix" src='../image/lunbo/lunbo2.jpg'></image>
+    </swiper-item>
+
+  </swiper>
+</view>
+
+
+<view class='dianputuijian'>
+  <text class='H1'>精选好店</text>
+  <navigator wx:for="{{dp}}" wx:key='index' url="/pages/dianpu/dianpu?cid={{item.did}}">
+    <view class='dianpu'>
+      <image class='dpimg' src='{{item.timg}}'></image>
+      <view class='dpname'>店铺名:{{item.dname}}</view>
+      <view class='dpjs'>简介:{{item.jieshao}}</view>
+    </view>
+  </navigator>
+  <view class='more'><navigator  open-type='navigate' url='/pages/dianpujihe/dianpujihe' >更多好店</navigator></view>
+</view>
+
+
+<text class='H2'>特色美食</text>
+
+<view class='meishituijian'>
+  <navigator wx:for="{{meishi}}" wx:key='index' url="/pages/dianpu/dianpu?cid={{item.did}}">
+    <view class='meishi'>
+      <view class='msimg'>
+        <image class='mstupian' src='{{item.mimg}}'></image>
+      </view>
+      <view class='meishiname'>{{item.mname}}</view>
+    </view>
+ </navigator>
+</view>

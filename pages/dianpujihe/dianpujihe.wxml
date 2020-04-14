@@ -1,0 +1,44 @@
+<!--pages/dianpujihe/dianpujihe.wxml-->
+<view class='zao'>
+  <text class='t'>早餐</text>
+  <view class='box'>
+    <navigator class='dphj' wx:for="{{dpjihe1}}" wx:key='index' url='/pages/dianpu/dianpu?cid={{item.did}}' open-type='navigate'>
+      <view class='ceshi'>
+        <image class='zimg' src='{{item.dimg}}'></image>
+      </view>
+      <text class='dpname'>{{item.dname}}</text>
+    </navigator>
+  </view>
+
+</view>
+
+
+
+<view class='zhong'>
+
+  <text class='t'>中餐</text>
+
+  <view class='box'>
+    <navigator class='dphj' wx:for="{{dpjihe2}}" wx:key='index' url='/pages/dianpu/dianpu?cid={{item.did}}' open-type='navigate'>
+      <view class='ceshi'>
+        <image class='zimg' src='{{item.dimg}}'></image>
+      </view>
+      <text class='dpname'>{{item.dname}}</text>
+    </navigator>
+  </view>
+</view>
+
+
+
+<view class='wan'>
+  <text class='t'>晚餐</text>
+  <view class='box'>
+    <navigator class='dphj' wx:for="{{dpjihe3}}" wx:key='index' url='/pages/dianpu/dianpu?cid={{item.did}}' open-type='navigate'>
+      <view class='ceshi'>
+        <image class='zimg' src='{{item.dimg}}'></image>
+      </view>
+      <text class='dpname'>{{item.dname}}</text>
+    </navigator>
+  </view>
+
+</view>

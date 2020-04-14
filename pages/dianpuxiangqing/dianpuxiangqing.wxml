@@ -1,0 +1,26 @@
+<view class='top'>
+
+  <view class='toptext' wx:for='{{dianpuxinxi}}' wx:key='msid'>
+
+    {{item.dname}}
+
+  </view>
+
+  <button class='but' plain="{{plain}}" bindtap="setDisabled">收藏店铺</button>
+</view>
+
+<view class='zhong'>
+  <view class='dizhi' wx:for='{{dianpuxinxi}}' wx:key='msid'>{{item.dizhi}}</view>
+  <view class='img'>
+    <image class='tupian' src='{{dimg}}'></image>
+    <image class='tupian' src='{{dimg2}}'></image>
+    <image class='tupian' src='{{dimg3}}'></image>
+  </view>
+</view>
+
+
+<view class='bottom' wx:for='{{dianpuxinxi}}' wx:key='msid'>
+  <text class='h1'>商家介绍:</text>
+  <text class='jieshao'>{{item.jieshao}}</text>
+
+</view>

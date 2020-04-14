@@ -1,0 +1,6 @@
+<!--components/sousuokuang/sousuo.wxml-->
+<view class='seach_input'>
+<navigator open-type='navigate' url='/pages/sousuo/sousuo'>搜索</navigator>
+
+</view> 
+

@@ -1,0 +1,35 @@
+<!--pages/pinglun/pinglun.wxml-->
+<view class='num'>已经贡献1条评价</view>
+
+<view class='top'>
+<view class='dianpuname'>订单号:1</view>
+<view class='pinglunneirong'>评论内容：真棒</view>
+
+<view class='but'>
+<view class='butt1'>修改评论</view>
+<view class='butt'>删除评论</view>
+</view>
+
+</view>
+
+<view class='top'>
+<view class='dianpuname'>订单号:1</view>
+<view class='pinglunneirong'>评论内容：真棒</view>
+
+<view class='but'>
+<view class='butt1'>修改评论</view>
+<view class='butt'>删除评论</view>
+</view>
+
+</view>
+
+<view class='top'>
+<view class='dianpuname'>订单号:1</view>
+<view class='pinglunneirong'>评论内容：真棒</view>
+
+<view class='but'>
+<view class='butt1'>修改评论</view>
+<view class='butt'>删除评论</view>
+</view>
+
+</view>

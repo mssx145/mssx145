@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/dianpujihe/dianpujihe",
+    "pages/dianpu/dianpu",
+    
+    "pages/sousuo/sousuo",
+    "pages/shoucang/shoucang",
+    "pages/pinglun/pinglun",
+    "pages/dianpuxiangqing/dianpuxiangqing",
+    "pages/dingdan/dingdan",
+    
+    "pages/zhuce/zhuce",
+    "pages/nulldenglu/nulldenglu",
+    "pages/shouquan/shouquan",
+    "pages/user/user",
+    "pages/pay/pya"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F9AF8E",
+    "navigationBarTitleText": "德宏美食网",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#141415",
+    "selectedColor": "#F8B743",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./icon/主页.png",
+        "selectedIconPath": "./icon/主页满.png"
+      },
+      {
+        "pagePath": "pages/dingdan/dingdan",
+        "text": "订单",
+        "iconPath": "./icon/订单.png",
+        "selectedIconPath": "./icon/订单满.png"
+      },
+       {
+        "pagePath":"pages/user/user",
+        "text": "用户",
+        "iconPath": "./icon/用户空.png",
+        "selectedIconPath": "./icon/用户.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

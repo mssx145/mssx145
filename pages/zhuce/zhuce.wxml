@@ -1,0 +1,9 @@
+<!--pages/zhuce/zhuce.wxml-->
+<view class='zhuce'>
+<text class='index'>用户注册</text>
+用户名:<input></input>
+密码:<input></input>
+确认密码:<input></input>
+<button bindTap = 'zhuce1' class='zhucechenggong'>注册成功</button>
+<button bindTap = 'zhuce2' class='quxiao'>取消</button>
+</view>

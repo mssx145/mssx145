@@ -1,0 +1,10 @@
+<view class='index'>
+<navigator open-type='switchTab' url='/pages/index/index'>德宏美食网</navigator>
+</view>
+
+<view class='user'>
+用户登录:<input type='user'></input>
+密码:<input type='passwrod'></input>
+<button class='denglu'>登录</button>
+<button class='zhuce'>注册</button>
+</view>

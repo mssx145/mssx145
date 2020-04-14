@@ -1,0 +1,41 @@
+/* pages/nulldenglu/nulldenglu.wxss */
+.index{
+  font-size: 50rpx;
+  color: #FBAC06;
+  display: flex;
+  justify-content: center
+}
+
+.user{
+  width: 100%;
+  height: 600rpx;
+  background-color: #F9AF8E;
+  font-size: 40rpx;
+  position: relative;
+  top: 50rpx;
+  flex-wrap: wrap;
+  white-space: pre-wrap
+  
+
+}
+input{
+  border: 1px solid black
+}
+.denglu{
+  width: 140rpx;
+  height: 100rpx;
+  font-size: 30rpx;
+  line-height: 95rpx;
+  position: relative;
+  right: 150rpx;
+  top: 50rpx
+}
+.zhuce{
+  width: 140rpx;
+  height: 100rpx;
+  font-size: 30rpx;
+  line-height: 95rpx;
+  position: relative;
+  left: 150rpx;
+  bottom: 50rpx
+}

@@ -1,0 +1,67 @@
+/* pages/shoucang/shoucang.wxss */
+.biaoti{
+  width: 100%;
+  height: 100rpx;
+  font-size: 50rpx;
+  font-weight: bold
+}
+
+
+.ms{
+  display: flex;
+  justify-content: center;
+   position: relative;
+}
+.img{
+ 
+  width: 280rpx;
+  height: 200rpx;
+    padding: 10rpx
+  
+}
+.meishi{
+
+width: 470rpx;
+ height: 200rpx;
+ padding: 10px
+}
+.dian{
+  font-size: 40rpx;
+  font-weight: bold;
+  position: absolute;
+}
+
+.butt{
+  width: 130rpx;
+  height: 70rpx;
+  z-index: 10000;
+  background-color: sandybrown;
+  position: absolute;
+  top: 120rpx;
+  right: 30rpx;
+  font-size: 30rpx;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 50rpx
+
+}
+.delet{
+    width: 150rpx;
+  height: 70rpx;
+  font-size: 35rpx;
+  line-height: 70rpx;
+  text-align: center;
+  position: relative;
+  bottom: 8rpx;
+  left: 577rpx;
+  z-index: 100;
+  background-color: skyblue;
+  border-radius: 15px
+}
+.dizhi{
+  position: relative;
+  top: 65%;
+  width: 280rpx;
+ 
+}

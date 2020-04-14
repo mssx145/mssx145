@@ -1,0 +1,50 @@
+.num{
+  width: 100%;
+  height: 70rpx;
+  background-color: seagreen;
+  font-size: 50rpx;
+  font-weight: bold;
+}
+.top{
+   width: 100%;
+   height: 600rpx;
+   background-color: chartreuse
+}
+.dianpuname{
+  font-size: 40rpx;
+  font-weight: bold;
+  padding: 20rpx
+}
+.pinglunneirong{
+  height: 400rpx;
+  font-size: 30rpx;
+  background-color: slategrey;
+  padding: 20rpx
+}
+.but{
+ width: 100%;
+ height: 100rpx;
+ background-color: fuchsia;
+ position: relative
+ 
+}
+.butt1{
+  width: 150rpx;
+  height: 50rpx;
+  background-color: red;
+  border-radius: 10px;
+  position: absolute;
+  left: 250rpx;
+  top: 25rpx;
+  text-align: center
+}
+.butt{
+  width: 150rpx;
+  height: 50rpx;
+  background-color: red;
+  border-radius: 10px;
+  position: absolute;
+  left: 450rpx;
+  top: 25rpx;
+  text-align: center
+}

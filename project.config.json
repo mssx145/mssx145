@@ -1,0 +1,97 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"checkInvalidKey": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.10.3",
+	"appid": "wx0a3bd8d4ab5d374b",
+	"projectname": "demo",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 6,
+			"list": [
+				{
+					"id": -1,
+					"name": "商品",
+					"pathName": "pages/dianpu/dianpu",
+					"query": "cid=1",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "店铺详情",
+					"pathName": "pages/dianpuxiangqing/dianpuxiangqing",
+					"query": "cid=1",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "订单",
+					"pathName": "pages/dingdan/dingdan",
+					"query": "cid=1",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "评论",
+					"pathName": "pages/pinglun/pinglun",
+					"query": "cid=1",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "用户中心",
+					"pathName": "pages/user/user",
+					"query": "cid=1",
+					"scene": null
+				},
+				{
+					"id": 5,
+					"name": "收藏",
+					"pathName": "pages/shoucang/shoucang",
+					"query": "did=1",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "搜索",
+					"pathName": "pages/sousuo/sousuo",
+					"query": "did=1",
+					"scene": null
+				}
+			]
+		}
+	}
+}
